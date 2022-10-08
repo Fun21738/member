@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F3F3;
+}
+.links{
+	display: flex;
+	gap: 20px;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.links a{
+	text-decoration: none;
+	font-size: 20px;
+    background-color: white;
+    /* padding-left: 190px;
+    padding-right: 190px; */
+    color: black;
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+.cover {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('./4305488.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70vw;
+    height: 60vh;
+    object-fit: cover;
+    margin-left: 12px;
+}
+
+.cover-content{
+    display: flex;
+    flex-direction: column;
+    margin: 22% 3%;
+    color: #fff;
+    row-gap: 10px;
+}
+.read{
+    width: 150px;
+}
+.one{
+    display: flex;
+    
+    column-gap: 85px;
+}
+/* .mem1{
+    height: 30%;
+    width: 100%;
+    align-items: center;
+}
+.mem3{
+    background-color:red;
+    height: 200px;
+    width: 450px;
+} */
+.mem{
+    background-color: white;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+    /* margin-top: 10%;  */
+}
+.one-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 16px;
+}
+.two{
+    display: flex;
+    column-gap: 15px;
+}
+.part{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    margin: 15px 12px;
+}
+
+.fa-solid{
+    font-size: 40px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% auto;
+    row-gap: 16px;
+}
+button{
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #4E4D4D;
+    color: white;
+}
+@media screen and (max-width:600px){
+    .links{
+display: flex;
+flex-direction: column;
+
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+    }
+    .cover{
+        width: 100%;
+        height: 50%;
+    }
+    .mem {
+        margin-top: 10px;
+        }
+        .text,.text1{
+            padding:10px;
+        }
+        .two{
+            display: flex;
+            flex-direction: column;
+        }
+}
+
