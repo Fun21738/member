@@ -34,6 +34,7 @@ body{
     height: 60vh;
     object-fit: cover;
     margin-left: 12px;
+
 }
 
 .cover-content{
@@ -48,7 +49,9 @@ body{
 }
 .one{
     display: flex;
-    
+    justify-content: space-around;
+    width: 100%;
+    /* margin: auto; */
     column-gap: 85px;
 }
 /* .mem1{
@@ -66,7 +69,7 @@ body{
     flex-grow: 1;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 500px;
     justify-content: center;
 }
 .text1{
@@ -88,7 +91,7 @@ body{
 }
 .part{
     background-color: white;
-    width: 500px;
+    width: 100%;
     height: 200px;
     margin: 15px 12px;
 }
@@ -112,6 +115,49 @@ button{
     background-color: #4E4D4D;
     color: white;
 }
+@media screen and (max-width:800px){
+    .links{
+display: flex;
+flex-direction: column;
+
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cover{
+        width: 50%;
+        height: 40%;
+        
+        margin: auto;
+    }
+    .mem {
+        margin: 10px;
+        width: 90%;
+        margin: auto;
+
+        }
+        .text,.text1{
+            padding:10px;
+        }
+        .two{
+            display: flex;
+            flex-direction: column;
+        }
+        .part{
+            width: 90%;
+            margin:12px auto;
+
+        }
+        #links{
+            width: 90%;
+            margin: auto;
+       }
+       .one-content{
+        margin: 12px;
+       }
+}
 @media screen and (max-width:600px){
     .links{
 display: flex;
@@ -121,9 +167,10 @@ flex-direction: column;
     .one{
         display: flex;
         flex-direction: column;
+
     }
     .cover{
-        width: 100%;
+        width: 40vh;
         height: 50%;
     }
     .mem {
